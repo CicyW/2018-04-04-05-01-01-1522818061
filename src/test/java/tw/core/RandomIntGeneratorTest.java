@@ -37,7 +37,7 @@ public class RandomIntGeneratorTest {
     }
 
     @Test
-    public void should__digit_not_repeated(){
+    public void should__digit_not_repeate(){
 
         RandomIntGenerator generator = new RandomIntGenerator();
         String digitStr = generator.generateNums(9,4).replace(" ","");
