@@ -23,7 +23,7 @@ public class GuessInputCommand implements InputCommand {
 
     @Override
     public Answer input() throws IOException {
-        System.out.println("------Please input your answer as x x x x , x <10 ------");
+        System.out.print("------Please input your answer as x x x x , x <10 ------\n");
         String input = bufferedReader.readLine();
         Answer answer = null;
         if (new InputValidator().validate(input)) {
